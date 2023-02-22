@@ -1,2 +1,5 @@
-{{ define "header" }}{{""}}{{ end }} {{ define "content" }} {{.Content}} {{ end
-}}
+{{ define "header" }}
+<h1>{{.Title}}</h1>
+<span>Last Modification: {{.Lastmod.Format "January 2, 2006" }}
+  {{ end }} {{ define "content" }} {{.Content}} {{ end
+  }}

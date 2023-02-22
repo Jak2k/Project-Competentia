@@ -74,3 +74,16 @@ nav a:hover::before {
   color: var(--background);
   text-decoration: underline;
 }
+
+footer {
+  margin-top: 1em;
+  padding: 0.5em;
+  border-radius: 1em 1em 0em 0em;
+  background-color: var(--secondary);
+  color: var(--background);
+  --link: var(--background);
+  position: fixed;
+  bottom: 0;
+  width: 80vw;
+  left: 10vw;
+}

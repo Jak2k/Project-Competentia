@@ -16,6 +16,11 @@
 
 
   <main>{{ block "content" . }} {{ end }}</main>
+  <footer>
+    <p>Project Competentia</p>
+    <a href="https://github.com/Project-Competentia/Project-Competentia" target="_blank" rel="noreferrer">Github</a>
+    <p>Last edit: <em>{{emojify .GitInfo.Subject}}</em> (<code>{{.GitInfo.AbbreviatedHash}}</code>)</span></p>
+  </footer>
 </body>
 
 </html>
