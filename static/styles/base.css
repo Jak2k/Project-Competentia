@@ -1,3 +1,49 @@
+:root {
+  --color-hue: 170;
+  --background: hsl(var(--color-hue), 100%, 90%);
+  --foreground: hsl(var(--color-hue), 100%, 3%);
+  --primary: hsl(var(--color-hue), 100%, 20%);
+  --secondary: hsl(var(--color-hue), 100%, 40%);
+  --link: var(--primary);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(var(--color-hue), 100%, 10%);
+    --foreground: hsl(var(--color-hue), 100%, 90%);
+    --primary: hsl(var(--color-hue), 100%, 80%);
+    --secondary: hsl(var(--color-hue), 100%, 60%);
+  }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 1em;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a::before {
+  content: "🔗";
+}
+
+a:hover::before {
+  content: "👉";
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -6,4 +52,25 @@ nav {
   align-items: center;
   padding: 0 1em;
   height: 3em;
+}
+
+nav a::before {
+  content: "";
+}
+
+nav a:hover::before {
+  content: "";
+}
+
+.header {
+  background-color: var(--primary);
+  color: var(--background);
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+.header a {
+  color: var(--background);
+  text-decoration: underline;
 }
