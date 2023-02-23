@@ -1,18 +1,18 @@
 :root {
-  --color-hue: 170;
+  --color-hue: 210;
   --background: hsl(var(--color-hue), 100%, 90%);
   --foreground: hsl(var(--color-hue), 100%, 3%);
-  --primary: hsl(var(--color-hue), 100%, 20%);
-  --secondary: hsl(var(--color-hue), 100%, 40%);
+  --primary: hsl(var(--color-hue), 100%, 25%);
+  --secondary: hsl(var(--color-hue), 40%, 20%);
   --link: var(--primary);
 }
 
 @media screen and (prefers-color-scheme: dark) {
   :root {
     --background: hsl(var(--color-hue), 100%, 10%);
-    --foreground: hsl(var(--color-hue), 100%, 90%);
-    --primary: hsl(var(--color-hue), 100%, 80%);
-    --secondary: hsl(var(--color-hue), 100%, 60%);
+    --foreground: hsl(var(--color-hue), 100%, 97%);
+    --primary: hsl(var(--color-hue), 100%, 75%);
+    --secondary: hsl(var(--color-hue), 40%, 80%);
   }
 }
 
