@@ -11,11 +11,18 @@
 </head>
 
 <body>
-  {{ partial "navigation.html" . }} <div class="header">{{ block "header" . }}<h1>{{ .Title }}</h1>{{ end }}
-  </div>
+  {{ partial "navigation.html" . }}
 
 
-  <main>{{ block "content" . }} {{ end }}</main>
+
+
+  <main>
+    <div class="header">{{ block "header" . }}<h1>{{ .Title }}</h1>{{end}}</div>{{ block "content" . }} {{ end }}
+  </main>
+
+  {{ block "toc" . }}
+  {{ end }}
+
   <footer>
     <p>Project Competentia</p>
     <a href="https://github.com/Project-Competentia/Project-Competentia" target="_blank" rel="noreferrer">Github</a>

@@ -1,4 +1,12 @@
 <nav>
-  <a href="/">Home</a><a href="/system">System</a><a href="/web">Web</a><a href="/software">Software & Services</a>
-  <a href="/socialmedia">Social Media</a>
+  <h2>Navigation</h2>
+  <a href="{{ .Site.BaseURL }}">Home</a>
+  <details>
+    <summary>Pages in this Topic</summary>
+    <ul>
+      {{ range .Pages }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </details>
 </nav>

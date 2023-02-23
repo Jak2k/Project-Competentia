@@ -27,6 +27,18 @@ body {
   line-height: 1.5;
 }
 
+body {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-rows: 1fr;
+  gap: 1em 1em;
+  grid-template-areas: "Nav Main TOC";
+}
+
+main {
+  grid-area: "Main";
+}
+
 a {
   color: var(--link);
   text-decoration: none;
@@ -45,21 +57,14 @@ a:hover::before {
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  gap: 1em;
-  align-items: center;
-  padding: 0 1em;
-  height: 3em;
-}
+  grid-area: "Nav";
+  padding: 1em;
 
-nav a::before {
-  content: "";
-}
-
-nav a:hover::before {
-  content: "";
+  border-radius: 1em;
+  background-color: var(--primary);
+  color: var(--background);
+  --link: var(--background);
+  height: max-content;
 }
 
 .header {
