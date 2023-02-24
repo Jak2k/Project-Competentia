@@ -1,8 +1,13 @@
 <nav>
-  <h2>Navigation</h2>
-  <a href="{{ .Site.BaseURL }}">Home</a>
-  <details>
-    <summary>Pages in this Topic</summary>
+
+
+  <details open>
+    <h2></h2>
+    <summary>
+      </h2>
+      Navigation
+    </summary><a href="{{ .Site.BaseURL }}">Home</a>
+    <h3>Pages in this Topic</h3>
     <ul>
       {{ range .Pages }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>

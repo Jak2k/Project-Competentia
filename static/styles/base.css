@@ -92,3 +92,10 @@ footer {
   width: 80vw;
   left: 10vw;
 }
+
+/* summary must be like h2 */
+summary {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
