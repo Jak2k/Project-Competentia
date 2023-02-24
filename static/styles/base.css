@@ -29,14 +29,39 @@ body {
 
 body {
   display: grid;
-  grid-template-columns: 0.5fr 1fr 0.5fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto 1fr;
   gap: 1em 1em;
-  grid-template-areas: "Nav Main TOC";
+  grid-template-areas:
+    "Nav Header Toc"
+    "Nav Main Toc"
+    "Footer Footer Footer";
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    gap: 1em 1em;
+    grid-template-areas:
+      "Header"
+      "Nav"
+      "Toc"
+      "Main"
+      "Footer";
+  }
 }
 
 main {
-  grid-area: "Main";
+  grid-area: Main;
+}
+
+main p {
+  margin: 1em;
+  /* Make text in long paragraphs more readable */
+  text-align: justify;
+  font-size: 1.03em;
 }
 
 a {
@@ -57,8 +82,9 @@ a:hover::before {
 }
 
 nav {
-  grid-area: "Nav";
+  grid-area: Nav;
   padding: 1em;
+  margin-left: auto;
 
   border-radius: 1em;
   background-color: var(--primary);
@@ -67,7 +93,14 @@ nav {
   height: max-content;
 }
 
+@media screen and (max-width: 800px) {
+  nav {
+    margin-left: 0;
+  }
+}
+
 .header {
+  grid-area: Header;
   background-color: var(--primary);
   color: var(--background);
   padding: 0.5em;
@@ -81,21 +114,16 @@ nav {
 }
 
 footer {
-  margin-top: 1em;
+  grid-area: Footer;
   padding: 0.5em;
   border-radius: 1em 1em 0em 0em;
   background-color: var(--secondary);
   color: var(--background);
   --link: var(--background);
-  position: fixed;
-  bottom: 0;
-  width: 80vw;
-  left: 10vw;
 }
 
 /* summary must be like h2 */
 summary {
   font-size: 1.5em;
   font-weight: bold;
-  margin-bottom: 0.5em;
 }

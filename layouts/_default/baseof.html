@@ -14,10 +14,10 @@
   {{ partial "navigation.html" . }}
 
 
-
+  <div class="header">{{ block "header" . }}<h1>{{ .Title }}</h1>{{end}}</div>
 
   <main>
-    <div class="header">{{ block "header" . }}<h1>{{ .Title }}</h1>{{end}}</div>{{ block "content" . }} {{ end }}
+    {{ block "content" . }} {{ end }}
   </main>
 
   {{ block "toc" . }}
