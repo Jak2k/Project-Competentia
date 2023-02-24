@@ -3,7 +3,7 @@
   --background: hsl(var(--color-hue), 100%, 90%);
   --foreground: hsl(var(--color-hue), 100%, 3%);
   --primary: hsl(var(--color-hue), 100%, 25%);
-  --secondary: hsl(var(--color-hue), 40%, 20%);
+  --secondary: hsl(var(--color-hue), 50%, 20%);
   --link: var(--primary);
 }
 
@@ -12,7 +12,7 @@
     --background: hsl(var(--color-hue), 100%, 10%);
     --foreground: hsl(var(--color-hue), 100%, 97%);
     --primary: hsl(var(--color-hue), 100%, 75%);
-    --secondary: hsl(var(--color-hue), 40%, 80%);
+    --secondary: hsl(var(--color-hue), 50%, 80%);
   }
 }
 
@@ -87,7 +87,7 @@ nav {
   margin-left: auto;
 
   border-radius: 1em;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--background);
   --link: var(--background);
   height: max-content;
@@ -126,4 +126,21 @@ footer {
 summary {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+#TableOfContents {
+  grid-area: Toc;
+  padding: 1em;
+  margin-right: auto;
+  border-radius: 1em;
+  background-color: var(--secondary);
+  color: var(--background);
+  --link: var(--background);
+  height: max-content;
+}
+
+@media screen and (max-width: 800px) {
+  #TableOfContents {
+    margin-right: 0;
+  }
 }
