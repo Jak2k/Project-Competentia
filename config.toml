@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://jak2k.github.io/Project-Competentia/'
 languageCode = 'en-us'
 title = 'Project Competentia'
 enableGitInfo=true
