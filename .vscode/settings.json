@@ -1,3 +1,3 @@
 {
-  "conventionalCommits.scopes": ["General Content"]
+  "conventionalCommits.scopes": ["General Content", "System"]
 }
