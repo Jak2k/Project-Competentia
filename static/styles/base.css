@@ -92,6 +92,15 @@ nav {
   height: max-content;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  list-style-type: none;
+  margin-top: 0.5em;
+}
+
 @media screen and (max-width: 800px) {
   nav {
     margin-left: 0;
