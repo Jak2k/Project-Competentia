@@ -59,7 +59,6 @@ main {
 
 main p {
   margin: 1em;
-  /* Make text in long paragraphs more readable */
   text-align: justify;
   font-size: 1.03em;
 }
@@ -108,6 +107,15 @@ nav {
   border-radius: 1em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Chivo", sans-serif;
+}
+
 .header a {
   color: var(--background);
   text-decoration: underline;
@@ -126,6 +134,7 @@ footer {
 summary {
   font-size: 1.5em;
   font-weight: bold;
+  font-family: "Chivo", sans-serif;
 }
 
 #TableOfContents {
