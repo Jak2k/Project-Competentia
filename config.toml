@@ -1,4 +1,4 @@
-baseURL = 'https://jak2k.github.io/Project-Competentia/'
+baseURL = 'https://project-competentia.vercel.app/'
 languageCode = 'en-us'
 title = 'Project Competentia'
 enableGitInfo=true
