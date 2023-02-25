@@ -1,5 +1,5 @@
 {{ define "header" }}
 <h1>{{.Title}}</h1>
 <span>Last Modification: {{.Lastmod.Format "January 2, 2006" }} <em>{{emojify .GitInfo.Subject}}</em>
-  (<code>{{.GitInfo.AbbreviatedHash}}</code>)
-  {{ end }} {{ define "content" }} {{.Content}} {{ end }}
+  (<code>{{.GitInfo.AbbreviatedHash}}</code>) by {{.GitInfo.AuthorName}}</span>
+{{ end }} {{ define "content" }} {{.Content}} {{ end }}
