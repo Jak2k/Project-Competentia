@@ -2,3 +2,30 @@ baseURL = 'https://project-competentia.vercel.app/'
 languageCode = 'en-us'
 title = 'Project Competentia'
 enableGitInfo=true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "System"
+    weight = 2
+    identifier = "system"
+    url = "/system"
+  [[menu.main]]
+    name = "Web"
+    weight = 3
+    identifier = "web"
+    url = "/web"
+  [[menu.main]]
+    name = "Software & Services: Reviews and Recommendations"
+    weight = 4
+    identifier = "software"
+    url = "/software"
+  [[menu.main]]
+    name="Social Media"
+    weight = 5
+    identifier = "social"
+    url = "/socialmedia"

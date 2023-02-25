@@ -1,9 +1,1 @@
-{{ define "content" }} {{.Content}}
-<ul>
-  {{ if not .IsHome }}
-  {{ range .Pages }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-  {{ end }}
-  {{ end}}
-</ul>
-{{ end }}
+{{ define "content" }} {{.Content}} {{ end }}

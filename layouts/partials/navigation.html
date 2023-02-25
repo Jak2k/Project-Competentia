@@ -6,12 +6,19 @@
     <summary>
       </h2>
       Navigation
-    </summary><a href="{{ .Site.BaseURL }}">Home</a>
+    </summary>
+    <ul>
+      {{ range .Site.Menus.main }}
+      <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    </ul>
+    {{ if not .IsHome }}
     <h3>Pages in this Topic</h3>
     <ul>
-      {{ range .Pages }}
+      {{ range .Pages.ByTitle }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
       {{ end }}
     </ul>
+    {{ end }}
   </details>
 </nav>
