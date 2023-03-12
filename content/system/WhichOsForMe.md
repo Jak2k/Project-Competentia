@@ -21,7 +21,7 @@ Choosing the best operating system for you depends on your personal preferences 
 
 Choosing the best operating system for you depends on your personal preferences and needs. There are two popular operating systems for smartphones: Android and iOS. You can't switch between these OSes, without buying a new phone.
 
-Adroid is the most popular. It is highly customizable and offers a lot of features. It is open source so every manufacturer can modify it to their liking. The best Android variant is more private than iOS, but most cheaper Android phones are not.
+Android is the most popular. It is highly customizable and offers a lot of features. It is open source so every manufacturer can modify it to their liking. The best Android variant is more private than iOS, but most cheaper Android phones are not.
 
 iOS is only available on Apple devices. It is very secure and private, but it is not customizable. It is also not open source, so you can't modify it to your liking. It is also more expensive than Android. It's a bit easier to use than Android, but it's not as customizable. It's also more expensive than Android.
 

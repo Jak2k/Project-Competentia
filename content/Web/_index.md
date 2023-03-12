@@ -16,3 +16,5 @@ Welcome to our Web Security page! Here, you can learn everything you need to kno
 - Passwords and why you must use a password manager
 - Less extensions are more security
 - The most private way to use the web (A quick introduction to Tor)
+  - VPN, or Proxy
+  - SOCKS and SOCKS5
