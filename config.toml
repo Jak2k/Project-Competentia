@@ -29,3 +29,7 @@ enableGitInfo=true
     weight = 5
     identifier = "social"
     url = "/socialmedia"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'

@@ -1,0 +1,19 @@
+{{ define "header" }}
+{{ $BaseUrl := .Site.BaseURL}}
+<h1>{{.Title}}</h1>
+<span>Last Modification: {{.Lastmod.Format "January 2, 2006" }} <em>{{emojify .GitInfo.Subject}}</em>
+  (<code>{{.GitInfo.AbbreviatedHash}}</code>) by {{.GitInfo.AuthorName}}</span>
+
+{{ end }} {{ define "content" }} {{.Content}}
+
+<h2>Alternatives</h2>
+{{ if .Params.categories }}
+<div style="margin: 1em;">
+  {{ $baseurl := .Site.BaseURL }}
+
+  {{ range $cat := .Params.categories }}
+  <li><a href="{{ $baseurl  }}categories/{{ $cat | urlize  }}">{{ $cat | humanize }}</a></li>
+  {{ end }}</p>
+</div>
+{{ end }}
+{{ end }}
