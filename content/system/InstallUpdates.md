@@ -1,7 +1,7 @@
 ---
 title: "2. Install Updates"
 date: 2023-02-25T22:21:32+01:00
-draft: true
+draft: false
 toc: true
 categories:
   - "System"
