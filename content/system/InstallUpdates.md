@@ -19,7 +19,7 @@ By default, Windows 10 downloads and installs updates automatically in the backg
 
 **Step 1**: Click on the **Windows** icon in the lower left corner of the screen.
 
-![Image showing step 1 was supposed to be here](InstallUpdates/Windows_10_Update_1.png)
+![Image showing step 1 was supposed to be here](InstallUpdates/Windows_10_Update_1.PNG)
 
 **Step 2**: Click on the **gear icon**. This will open the Settings window.
 
