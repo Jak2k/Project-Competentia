@@ -23,15 +23,15 @@ By default, Windows 10 downloads and installs updates automatically in the backg
 
 **Step 2**: Click on the **gear icon**. This will open the Settings window.
 
-![Image showing step 1 was supposed to be here](installupdates/Windows_10_Update_2.png)
+![Image showing step 1 was supposed to be here](Windows_10_Update_2.png)
 
 **Step 3**: Click on **Updates and Security**. This will open the **Updates page**.
 
-![Image showing step 1 was supposed to be here](installupdates/Windows_10_Update_3.png)
+![Image showing step 1 was supposed to be here](Windows_10_Update_3.png)
 
 **Step 4**: Click on the **Check for Updates** button. Windows will start looking for any available updates.
 
-![Image showing step 1 was supposed to be here](installupdates/Windows_10_Update_4.png)
+![Image showing step 1 was supposed to be here](Windows_10_Update_4.png)
 
 **Step 5**: There are two scenarios possible here:
 
@@ -41,11 +41,11 @@ By default, Windows 10 downloads and installs updates automatically in the backg
 
 **Step 6**: If any updates start downloading, wait for them to finish downloading.
 
-![Image showing step 1 was supposed to be here](installupdates/Windows_10_Update_5.png)
+![Image showing step 1 was supposed to be here](Windows_10_Update_5.png)
 
 **Step 7**: Once the updates finish downloading, You can either **restart your system now to install the updates or choose to restart later**. In case you choose to restart later, keep in mind that whenever you switch on your PC next, Windows will automatically start installing the updates.
 
-![Image showing step 1 was supposed to be here](installupdates/Windows_10_Update_6.png)
+![Image showing step 1 was supposed to be here](Windows_10_Update_6.png)
 
 Also, please note that if there are frequent **power cuts** in your area, you should only install updates when you are most certain that power won’t be cut. If your computer **shuts down** in the **middle of an update** due to a power outage or the laptop battery dying, it can **corrupt** your operating system. This can result in you losing access to your files stored on the computer. So do take care.
 
@@ -68,11 +68,11 @@ TODO: Write about MacOS updates
 
 1. Open the "Software" application
 
-![Alt text](installupdates/Linux_Gnome_1_Software-App-Icon.png)
+![Alt text](Linux_Gnome_1_Software-App-Icon.png)
 
 2. Click on "Updates"
 
-![Alt text](installupdates/Linux_Gnome_2_Software-App-Updates.png)
+![Alt text](Linux_Gnome_2_Software-App-Updates.png)
 
 3. Click on the blue buttons for installing all updates or installing system updates.
 
