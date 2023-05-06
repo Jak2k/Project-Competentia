@@ -84,7 +84,111 @@ Sometimes you will see a "Install Updates" checkbox in the Power Off-/ Restart-C
 
 ### Android
 
-TODO: Write about Android updates
+The exact steps that you need to follow in order to update your Android operating system will vary from device to device.
+
+Listed below are steps on how to update Android on MI, Oppo, and Samsung devices. Do not worry if you have some other manufacturers smartphone. The steps listed below should give you a general idea of how to update your device.
+
+### Some things to keep in mind before updating your Android:
+
+- It is advised that you connect to WiFi before updating your device. This is because updates can be very large. This can cause you to exhaust your daily data limit or cause your monthly phone data bill to skyrocket.
+
+- Do not turn off the phone while the update is being installed.
+
+### How do I update Android on MI devices?
+**Step 1**: Open the **Settings** app on your phone.
+
+![Image showing step 1 was supposed to be here](Android_Update_0.jpg)
+
+**Step 2**: Find the **About Phone** section and click on it.
+
+![Image showing step 1 was supposed to be here](Android_Update_1.jpg)
+
+**Step 3**: Click on the **MIUI version** tab. Your device will automatically start looking for any updates available.
+
+![Image showing step 1 was supposed to be here](Android_Update_2.jpg)
+
+**Step 4**:Click on the **Check For Updates** button.
+
+![Image showing step 1 was supposed to be here](Android_Update_3.jpg)
+
+**Step 5**: There are two scenarios possible here:
+
+  a.There are no updates available for your device. In this case, you are good to go, and you can stop reading the tutorial.
+
+  b.There are some updates available for your device. If this is the case, then proceed to step 5.
+
+
+
+**Step 6**: If an update is available, it will be shown on the screen. Also, the update size may be mentioned.
+
+**Step 7**: Click on the **download** button to start downloading the update.
+
+**Step 8**: Once the update finishes downloading, you will **need to restart** your phone to install it. You can either choose to restart now or at a later point.
+
+**Step 9**: Your phone will restart and start installing the update. The progress of the update will be shown on the screen.
+
+**Step 10**: Once the update is installed, your phone will be ready to use as usual.
+
+### How do I update Android on Oppo devices?
+**Step 1**: Open the **Settings app** on your phone.
+
+![Image showing step 1 was supposed to be here](Android_Update_4.jpg)
+
+**Step 2**: Find the **Software Update** section and click on it.
+
+![Image showing step 1 was supposed to be here](Android_Update_5.jpg)
+
+**Step 3**: Your device will automatically start looking for any updates available.
+
+**Step 4**: There are two scenarios possible here:
+
+  a. There are no updates available for your device. In this case, you are good to go, and you can stop reading the tutorial.
+
+  b. There are some updates available for your device. If this is the case, then proceed to step 5.
+
+**Step 5**: If an update is available, it will be shown on the screen. Also, the update size may be mentioned.
+
+![Image showing step 1 was supposed to be here](Android_Update_6.jpg)
+
+**Step 6**: Click on the **download button** to start downloading the update.
+
+**Step 7**: Once the update finishes downloading, you will need to restart your 
+phone to install it. You can either choose to restart now or at a later point.
+
+**Step 8**: Your phone will restart and start installing the update. The progress of the update will be shown on the screen.
+
+**Step 9**: Once the update is installed, your phone will be ready to use as usual.
+
+### How do I update Android on Samsung devices?
+**Step 1**: Open the **Settings** app on your phone.
+
+![Image showing step 1 was supposed to be here](Android_Update_7.jpg)
+
+**Step 2**: Find the **Software Update** section and click on it.
+
+![Image showing step 1 was supposed to be here](Android_Update_8.jpg)
+
+**Step 3**: Click on **Download and Install**. Your device will automatically start looking for any updates available.
+
+![Image showing step 1 was supposed to be here](Android_Update_9.jpg)
+
+**Step 4**: There are two scenarios possible here:
+
+  a. There are no updates available for your device. In this case, you are good to go, and you can stop reading the tutorial.
+
+  b. There are some updates available for your device. If this is the case, then proceed to step 5.
+
+**Step 5**: If an update is available, it will be shown on the screen. Also, the update size may be mentioned.
+
+![Image showing step 1 was supposed to be here](Android_Update_10.jpg)
+
+**Step 6**: Click on the download button to start downloading the update.
+
+**Step 7**: Once the update finishes downloading, you will need to restart your phone to install it. You can either choose to restart now or at a later point.
+
+**Step 8**: Your phone will restart and start installing the update. The progress of the update will be shown on the screen.
+
+**Step 9**: Once the update is installed, your phone will be ready to use as usual.
 
 ### iOS
 
